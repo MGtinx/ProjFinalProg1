@@ -2,12 +2,13 @@
 
 Sistema de autoatendimento para lanchonete desenvolvido em JavaFX.
 
-## 📋 Testes
+## Teste
 
-- **Totem de Autoatendimento**: Seleção de pastéis, sanduíches e bebidas
-- **Painel Administrativo**: Controle de pedidos e status
-- **Gestão de Estoque**: Controle de itens e preços
-- **Sistema de Senhas**: Numeração automática de pedidos
+- confirmar pedido vazio e checar modo admin
+- pedir 1 pastel, 1 sanduíche e 1 bebida, confirmar e checar modo admin
+- avançar status deste pedido até entregá-lo, voltar ao modo totem
+- pedir algo, remover, e fazer outro pedido como quiser, checar modo admin e avançar seu status
+- fazer 3 pedidos diferentes, ir ao modo admin e avançar status até entregar todos
 
 ## 🚀 Como Executar
 
