@@ -10,7 +10,7 @@ Feito para o Projeto Final de Programação 1.
 - pedir algo, remover, e fazer outro pedido como quiser, checar modo admin e avançar seu status
 - fazer 3 pedidos diferentes, ir ao modo admin e avançar status até entregar todos
 
-# Executar
+## Executar
 
 # Clonar o repositório
 - git clone https://github.com/MGtinx/ProjFinalProg1.git
