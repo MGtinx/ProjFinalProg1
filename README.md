@@ -1,6 +1,6 @@
-# 🏪 Sistema de Atendimento - Lanchonete
+# Totem de Lanchonete
 
-Sistema de autoatendimento para lanchonete desenvolvido em JavaFX.
+Feito para o Projeto Final de Programação 1.
 
 ## Teste
 
@@ -10,7 +10,7 @@ Sistema de autoatendimento para lanchonete desenvolvido em JavaFX.
 - pedir algo, remover, e fazer outro pedido como quiser, checar modo admin e avançar seu status
 - fazer 3 pedidos diferentes, ir ao modo admin e avançar status até entregar todos
 
-## 🚀 Como Executar
+# Executar
 
 # Clonar o repositório
 - git clone https://github.com/MGtinx/ProjFinalProg1.git
