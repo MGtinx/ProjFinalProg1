@@ -12,8 +12,8 @@ Sistema de autoatendimento para lanchonete desenvolvido em JavaFX.
 ## 🚀 Como Executar
 
 # Clonar o repositório
-git clone https://github.com/seu-usuario/sistema-atendimento.git
-cd sistema-atendimento
+- git clone https://github.com/MGtinx/ProjFinalProg1.git
+- cd ProjFinalProg1
 
 # Execute a aplicação
 mvn javafx:run
