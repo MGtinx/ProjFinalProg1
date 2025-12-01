@@ -18,3 +18,5 @@ Feito para o Projeto Final de Programação 1.
 
 # Execute a aplicação
 mvn javafx:run
+
+se nada der certo, acredito que dê pra baixar os arquivos e executar pelo VSCode
