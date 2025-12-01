@@ -12,8 +12,8 @@ Feito para o Projeto Final de Programação 1.
 
 ## Executar
 
-- baixar o código como um zip
-- abrir ele no VSCode
+- baixar o que está em release
+- extrair e abrir a pasta no VSCode
 - executar o App.java
 <img width="1279" height="749" alt="image" src="https://github.com/user-attachments/assets/7002c7f4-dd2b-4696-b633-a95aa8af3804" />
 <img width="1279" height="748" alt="image" src="https://github.com/user-attachments/assets/902b809d-34b5-443d-95ea-3fa05e42101b" />
