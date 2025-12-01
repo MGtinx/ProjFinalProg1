@@ -18,7 +18,7 @@ public class TotemAtendimento implements Identificador{
         this.status = "Em preparo"; 
     }
 
-    public void addItemP(int recheio) {
+    public void addItemP(int recheio) { //cria um objeto com o construtor respectivo, adiciona no arraylist carrinho e arruma valor total
         Comida pastel = new Comida(null, 10, recheio);
         carrinho.add(pastel);
         setValorTotal(valorTotal + pastel.getPrecoVenda());
@@ -51,8 +51,7 @@ public class TotemAtendimento implements Identificador{
         return total;
     }
     
-    public int geradorId(){
-        // Usa o contador de atendimentos + 1 como senha
+    public int geradorId(){ //usa contador de atendimentos + 1 para criar senha
         return App.getAdmin().getContadorAtendimento() + 1;
     }
 
@@ -66,7 +65,6 @@ public class TotemAtendimento implements Identificador{
             setStatus("Entregue");
             break;
         case "Entregue":
-            // Não faz nada, já está no status final
             break;
     }
 }
@@ -85,7 +83,6 @@ public class TotemAtendimento implements Identificador{
         return new TotemAtendimento();
     }
 
-    // Getters e Setters
     public int getSenha() {
         return senha;
     }
@@ -129,4 +126,5 @@ public class TotemAtendimento implements Identificador{
     public void setCarrinho(ArrayList<Item> carrinho) {
         this.carrinho = carrinho;
         }
+
 }
