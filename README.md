@@ -12,11 +12,6 @@ Feito para o Projeto Final de Programação 1.
 
 ## Executar
 
-# Clonar o repositório
-- git clone https://github.com/MGtinx/ProjFinalProg1.git
-- cd ProjFinalProg1
-
-# Execute a aplicação
-mvn javafx:run
-
-se nada der certo, acredito que dê pra baixar os arquivos e executar pelo VSCode
+- baixar o código como um zip
+- abrir ele no VSCode
+- executar o App.java
