@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" prefHeight="720.0" prefWidth="1280.0" spacing="20.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.feevale.TotemControlador">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="325.0" prefWidth="1240.0">
+         <children>
+            <GridPane alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="500.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="200.0" minHeight="10.0" prefHeight="101.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="99.0" minHeight="0.0" prefHeight="99.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="addPFr" alignment="CENTER" mnemonicParsing="false" onAction="#addPastelFrango">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/PF.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="addPCa" mnemonicParsing="false" onAction="#addPastelCarne" GridPane.columnIndex="1">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/PC.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="addPQu" mnemonicParsing="false" onAction="#addPastelQueijo" GridPane.columnIndex="2">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/PQ.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="SBrFr" mnemonicParsing="false" onAction="#addSanduicheBrancoFrango" GridPane.columnIndex="3">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/SBF.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="SBrAt" mnemonicParsing="false" onAction="#addSanduicheBrancoAtum" GridPane.columnIndex="4">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/SBA.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="SBrQP" mnemonicParsing="false" onAction="#addSanduicheBrancoPresuntoQueijo" GridPane.columnIndex="5">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/SBPQ.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="CocaL" maxHeight="-Infinity" mnemonicParsing="false" onAction="#addCocaLata" prefHeight="150.0" prefWidth="118.0" GridPane.columnIndex="6">
+                     <graphic>
+                        <ImageView fitHeight="69.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/cocalata.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="GuaL" mnemonicParsing="false" onAction="#addGuaranaLata" prefHeight="108.0" prefWidth="116.0" GridPane.columnIndex="7">
+                     <graphic>
+                        <ImageView fitHeight="100.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/GUAL.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="h2oh" mnemonicParsing="false" onAction="#addH2OH" prefHeight="108.0" prefWidth="117.0" GridPane.columnIndex="8">
+                     <graphic>
+                        <ImageView fitHeight="100.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/76c4e1e1ec7c4ef144513a80ad44c065.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="water" mnemonicParsing="false" onAction="#addAgua" GridPane.columnIndex="9">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/AGUA.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="addPPa" mnemonicParsing="false" onAction="#addPastelPalmito" GridPane.rowIndex="1">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/PP.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="addPCl" mnemonicParsing="false" onAction="#addPastelCalabresa" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/pCAL.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="addP4q" mnemonicParsing="false" onAction="#addPastel4Queijos" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/p4q.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="SInFr" mnemonicParsing="false" onAction="#addSanduicheIntegralFrango" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/SIF.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="SInAt" mnemonicParsing="false" onAction="#addSanduicheIntegralAtum" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/SIA.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="SInQP" alignment="CENTER" mnemonicParsing="false" onAction="#addSanduicheIntegralPresuntoQueijo" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/SIPQ.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="Coca600" mnemonicParsing="false" onAction="#addCoca600" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/coca600.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="Gua600" alignment="CENTER" mnemonicParsing="false" onAction="#addGuarana600" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/GUA600.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="Limo" mnemonicParsing="false" onAction="#addLimoneto" GridPane.columnIndex="8" GridPane.rowIndex="1">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/LIMONETO.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="Cana" mnemonicParsing="false" onAction="#addCaldoCana" GridPane.columnIndex="9" GridPane.rowIndex="1">
+                     <graphic>
+                        <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@iamgens/CALDO.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </GridPane>
+            <Text fx:id="itensPedido" strokeType="OUTSIDE" strokeWidth="0.0" text="teste">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <Button fx:id="removerUltimo" mnemonicParsing="false" onAction="#removerUltimoItem" text="Remover sua última escolha" />
+      <HBox alignment="CENTER" prefHeight="325.0" prefWidth="0.0">
+         <children>
+            <HBox maxWidth="1.7976931348623157E308" prefHeight="308.0" prefWidth="1189.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="308.0" prefWidth="576.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Valor total">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="valorTotal" strokeType="OUTSIDE" strokeWidth="0.0" text="teste">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="308.0" prefWidth="576.0">
+                     <children>
+                        <Button fx:id="confirmar" mnemonicParsing="false" onAction="#confirmarPedido" prefHeight="150.0" prefWidth="300.0" text="CONFIRMAR PEDIDO">
+                              <font>
+                                   <Font size="25.0" />
+                              </font>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="BOTTOM_RIGHT" prefHeight="308.0" prefWidth="133.0">
+               <children>
+                  <Button fx:id="trocaParaAdmin" alignment="BOTTOM_RIGHT" onAction="#trocaParaAdmin" text="Modo Admin" />
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
